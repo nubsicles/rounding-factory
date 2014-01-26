@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="tarsus-vm1" name="com.topcoder.math.roundingfactory.AllTests" skipped="0" tests="1" time="0.0" timestamp="2014-01-12T04:36:53">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="package" value="com.topcoder.math.roundingfactory" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="verbose" value="no" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/usr/java/jdk1.7.0_45/jre/lib/resources.jar:/usr/java/jdk1.7.0_45/jre/lib/rt.jar:/usr/java/jdk1.7.0_45/jre/lib/sunrsasign.jar:/usr/java/jdk1.7.0_45/jre/lib/jsse.jar:/usr/java/jdk1.7.0_45/jre/lib/jce.jar:/usr/java/jdk1.7.0_45/jre/lib/charsets.jar:/usr/java/jdk1.7.0_45/jre/lib/jfr.jar:/usr/java/jdk1.7.0_45/jre/classes" />
+    <property name="docsdir" value="docs" />
+    <property name="javadoc.jar" value="build/javadocs.jar" />
+    <property name="design_submission.jar" value="Rounding_Factory_1.0_design_submission.jar" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="component.tests.jar" value="build/dist/lib/tcs/rounding_factory_tests.jar" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/apache-ant/apache-ant-1.9.3" />
+    <property name="java.runtime.version" value="1.7.0_45-b18" />
+    <property name="base_exception.jar.name" value="base_exception.jar" />
+    <property name="component_path" value="rounding_factory/1.0" />
+    <property name="user.name" value="trevor" />
+    <property name="debug" value="off" />
+    <property name="reports" value="reports" />
+    <property name="testfiles" value="test_files" />
+    <property name="dist_conf" value="build/dist/rounding_factory-1.0/conf" />
+    <property name="component_version" value="1.0" />
+    <property name="ant.file.Rounding Factory" value="/home/trevor/tc/rounding_factory/build.xml" />
+    <property name="user.language" value="en" />
+    <property name="configmanager.path" value="configuration_manager/2.1.3" />
+    <property name="sun.boot.library.path" value="/usr/java/jdk1.7.0_45/jre/lib/amd64" />
+    <property name="tcs_libdir" value="lib/tcs" />
+    <property name="ant.project.default-target" value="dist" />
+    <property name="srcdir" value="src" />
+    <property name="ant.project.name" value="Rounding Factory" />
+    <property name="java.version" value="1.7.0_45" />
+    <property name="user.timezone" value="" />
+    <property name="dev_dist.jar" value="Rounding_Factory_1.0_dev_dist.jar" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="build_lib" value="build/lib" />
+    <property name="webdir" value="web" />
+    <property name="java.endorsed.dirs" value="/usr/java/jdk1.7.0_45/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="packagedir" value="com/topcoder/math/roundingfactory" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="build_docsdir" value="build/docs" />
+    <property name="dev_submission.jar" value="Rounding_Factory_1.0_dev_submission.jar" />
+    <property name="java.class.version" value="51.0" />
+    <property name="base_exception.path" value="base_exception/1.0" />
+    <property name="build_testclassdir" value="build/testClasses" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/usr/java/jdk1.7.0_45/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="jar_tcs_libdir" value="lib/tcs" />
+    <property name="ant.file" value="/home/trevor/tc/rounding_factory/build.xml" />
+    <property name="os.version" value="3.8.0-29-generic" />
+    <property name="build_distdir" value="build/dist" />
+    <property name="build_tcsdistdir" value="build/dist/rounding_factory-1.0" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="24.45-b08" />
+    <property name="testlogdir" value="log" />
+    <property name="ant.file.type.Rounding Factory" value="file" />
+    <property name="ant.library.dir" value="/usr/apache-ant/apache-ant-1.9.3/lib" />
+    <property name="javamain" value="src/java/main" />
+    <property name="base_exception.jar" value="lib/tcs/base_exception/1.0/base_exception.jar" />
+    <property name="dist_lib" value="build/dist/lib/tcs" />
+    <property name="dist_testfiles" value="build/dist/rounding_factory-1.0/test_files" />
+    <property name="dist_javadocs" value="build/dist/rounding_factory-1.0/docs/javadocs" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="component" value="Rounding_Factory" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="component.war" value="${dist_examples}/rounding_factory.war" />
+    <property name="user.home" value="/home/trevor" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="build_javadocsdir" value="build/docs/javadocs" />
+    <property name="configdir" value="conf" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.3 compiled on December 23 2013" />
+    <property name="java.class.path" value="/home/trevor/tc/rounding_factory/build/testClasses:/home/trevor/tc/rounding_factory/build/classes:/home/trevor/tc/rounding_factory/conf:/home/trevor/tc/rounding_factory/test_files:/usr/junit/junit4.11/junit-4.11.jar:/usr/junit/junit4.11/junit-4.11-tests.jar:/usr/checkstyle/checkstyle-5.6/checkstyle-5.6-all.jar:/usr/apache-ant/apache-ant-1.9.3/lib/ant-launcher.jar:/usr/apache-ant/apache-ant-1.9.3/lib/ant.jar:/usr/apache-ant/apache-ant-1.9.3/lib/ant-junit.jar:/usr/apache-ant/apache-ant-1.9.3/lib/ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.topcoder.math.roundingfactory.AllTests skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/home/trevor/tc/rounding_factory/log/TEST-com.topcoder.math.roundingfactory.AllTests.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/trevor/tc/rounding_factory/log/TEST-com.topcoder.math.roundingfactory.AllTests.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=/home/trevor/tc/rounding_factory/junitvmwatcher8530529086836055237.properties propsfile=/home/trevor/tc/rounding_factory/junit4714612520186080784.properties" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ext_libdir" value="lib" />
+    <property name="builddir" value="build" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="component.dist.jar" value="build/dist/rounding_factory-1.0.jar" />
+    <property name="junit.jar" value="lib/junit.jar" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="configmanager.jar.name" value="configuration_manager.jar" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="build_targetclassdir" value="build/targetclasses" />
+    <property name="build_classdir" value="build/classes" />
+    <property name="javatests" value="src/java/tests" />
+    <property name="configmanager.jar" value="lib/tcs/configuration_manager/2.1.3/configuration_manager.jar" />
+    <property name="javadocsdir" value="docs/javadocs" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="os.arch" value="amd64" />
+    <property name="build_webdir" value="build/web" />
+    <property name="java.ext.dirs" value="/usr/java/jdk1.7.0_45/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="dist_src" value="build/dist/rounding_factory-1.0/src" />
+    <property name="user.dir" value="/home/trevor/tc/rounding_factory" />
+    <property name="design_dist.jar" value="Rounding_Factory_1.0_design_dist.jar" />
+    <property name="javasrc" value="src/java" />
+    <property name="jar_ext_libdir" value="lib" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="java_1_3_bootclasspath" value="c:\program files\JavaSoft\JRE\1.3.1\lib\rt.jar" />
+    <property name="distfilename" value="rounding_factory" />
+    <property name="basedir" value="/home/trevor/tc/rounding_factory" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="ant.core.lib" value="/usr/apache-ant/apache-ant-1.9.3/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="configmanager.version" value="2.1.3" />
+    <property name="base_exception.version" value="1.0" />
+    <property name="dist_docs" value="build/dist/rounding_factory-1.0/docs" />
+    <property name="component.jar" value="build/dist/lib/tcs/rounding_factory/1.0/rounding_factory.jar" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="ant.project.invoked-targets" value="test" />
+  </properties>
+  <error type="java.lang.reflect.InvocationTargetException">java.lang.reflect.InvocationTargetException
+Caused by: java.lang.NoClassDefFoundError: com/topcoder/util/errorhandling/BaseException
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:190)
+	at com.topcoder.math.roundingfactory.UnitTests.class$(UnitTests.java:42)
+	at com.topcoder.math.roundingfactory.UnitTests.suite(UnitTests.java:42)
+	at com.topcoder.math.roundingfactory.AllTests.suite(AllTests.java:26)
+Caused by: java.lang.ClassNotFoundException: com.topcoder.util.errorhandling.BaseException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:366)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

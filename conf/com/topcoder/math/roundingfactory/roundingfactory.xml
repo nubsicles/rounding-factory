@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<ConfigManager>
+    <namespace name="com.topcoder.math.roundingfactory">
+        
+        <property name="rounding_algorithms">
+            <value>no</value> 
+            <value>random</value> 
+        </property>
+        
+        <property name="no_class">
+            <value>com.topcoder.math.roundingfactory.Algorithms.NoRounding</value> 
+        </property>
+        
+        <property name="no_accuracy">
+            <value>2</value> 
+        </property>
+        
+        <property name="no_comparison">
+            <value>5</value> 
+        </property>
+        
+        <property name="random_class">
+            <value>com.topcoder.math.roundingfactory.Algorithms.RandomRounding</value> 
+        </property>
+        
+        <property name="random_accuracy">
+            <value>6</value> 
+        </property>
+        
+        <property name="random_comparison">
+            <value>8</value> 
+        </property>        
+        
+    </namespace>
+</ConfigManager>
+         
+
+ 

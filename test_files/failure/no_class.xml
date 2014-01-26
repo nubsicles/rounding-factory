@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<CMConfig>
+        <Property name="rounding_algorithms">
+            <Value>no</Value> 
+            <Value>random</Value> 
+        </Property>
+        
+        <Property name="no_class">
+            <Value>com.topcoder.math.roundingfactory.algorithms.NoRounding</Value> 
+        </Property>
+        
+        <Property name="no_accuracy">
+            <Value>2</Value> 
+        </Property>
+        
+        <Property name="no_comparison">
+            <Value>5</Value> 
+        </Property>
+        
+
+        <!-- 
+
+        No _class property in this file 
+
+        Property name="random_class"
+            <Value>com.topcoder.math.roundingfactory.algorithms.RandomRounding</Value> 
+        </Property -->
+        
+        <Property name="random_accuracy">
+            <Value>6</Value> 
+        </Property>
+        
+        <Property name="random_comparison">
+            <Value>8</Value> 
+        </Property>        
+</CMConfig>

@@ -1,6 +1,6 @@
 
   Installation Requirements
-  -------------------------
+  --------------------------
   JDK 1.3+  <http://java.sun.com>
   Apache Ant 1.5.1+  <http://www.apache.org>
   JUnit 3.8+  <http://www.junit.org>

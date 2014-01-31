@@ -1,0 +1,4 @@
+# ignore all editor-created temp files
+*~
+# ignore build directory
+build/

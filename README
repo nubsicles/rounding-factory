@@ -13,7 +13,6 @@
   TopCoder Software has defined a directory structure to promote component reuse
   and facilitate Component Based Development.
   
-  Steps to setting up your environment:
   1- Designate a directory on your file system to be used as your TCS_HOME.
      (i.e. c:\tcs or /etc/home/user/tcs)
   2- Copy the sample topcoder_global.properties located in this distribution to your TCS_HOME directory.

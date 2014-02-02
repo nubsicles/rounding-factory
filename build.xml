@@ -22,7 +22,6 @@
     <property name="configdir" value="conf" />
     <property name="testlogdir" value="log" />
     <property name="testfiles" value="test_files" />
-    <property name="javadocsdir" value="${docsdir}/javadocs" />
     <property name="webdir" value="web" />
     <property name="reports" value="reports" />
 

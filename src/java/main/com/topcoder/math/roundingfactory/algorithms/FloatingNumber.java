@@ -128,7 +128,47 @@ class FloatingNumber {
      * @return whether this floating number is zero.
      */
     boolean isZero() {
-        return true;
+        if (isIntegralPortionZero
+                && isFractionalPortionZero) {
+            return true;
+                }
+        else {
+            return false;
+        }
+    }
+
+    /**
+     * Returns whether the integral portion of this floating number is zero.
+     *
+     * @return whether interal portion is zero.
+     */
+    private boolean isIntegralPortionZero() {
+
+        if ((this.integral == null)
+            || (this.integral.isEmpty())
+            || (this.integral == "0")) {
+                return true;
+            }
+        else {
+            return false;
+        }
+    }
+    
+    /**
+     * Returns whether the decimal portion of this floating number is zero.
+     *
+     * @return whether decimal portion is zero.
+     */
+    private boolean isFractionalPortionZero() {
+
+        if ((this.fractional == null)
+            || (this.fractional.isEmpty())
+            || (this.fractional == "0")) {
+                return true;
+            }
+        else {
+            return false;
+        }
     }
 
     /**
@@ -194,7 +234,9 @@ class FloatingNumber {
      * @return the significant digits
      */
     private String getSignificantDigits(int accuracyDigit) {
-        return "";
+        int counter = accuracyDigit;
+
+        while (
    }
 
 

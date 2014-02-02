@@ -15,8 +15,8 @@
     <!-- DIRECTORY SETUP -->
     <property name="srcdir" value="src" />
     <property name="tcs_libdir" value="lib/tcs" />
-    <property name="ext_libdir" value="lib" />
     <property name="jar_tcs_libdir" value="lib/tcs" />
+    <property name="jar_xkcd_libdir" value="lib/tcs" />
     <property name="jar_ext_libdir" value="lib" />
     <property name="docsdir" value="docs" />
     <property name="configdir" value="conf" />

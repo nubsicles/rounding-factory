@@ -54,6 +54,8 @@ public abstract class RoundingAlgorithm implements Algorithm {
      * if the accuracyDigit is negative.
      */
     protected RoundingAlgorithm(int accuracyDigit, int comparisonDigit) {
+        this.accuracyDigit = accuracyDigit;
+        this.comparisonDigit = comparisonDigit;
     }
 
     /**
@@ -66,7 +68,7 @@ public abstract class RoundingAlgorithm implements Algorithm {
      * @throws NumberFormatException if number is not a valid floating point number
      */
     public String round(String number) {
-        return "";
+        return round(number, this.accuracyDigit, this.comparisonDigit);
     }
 
     /**
@@ -96,7 +98,7 @@ public abstract class RoundingAlgorithm implements Algorithm {
      * @throws RoundingException if any exceptions occur when rounding
      */
     public String round(double number) {
-        return "";
+        return roundDouble(number, this.accuracyDigit, this.comparisonDigit);
     }
 
     /**
@@ -113,6 +115,9 @@ public abstract class RoundingAlgorithm implements Algorithm {
      * in converting the string to double.
      */
     public double roundDouble(double number, int accuracyDigit, int comparisonDigit) {
+        // check arguments
+        checkRoundingArguments(accuracyDigit, comparisonDigit);
+
         return 0.0;
     }
 
@@ -134,7 +139,7 @@ public abstract class RoundingAlgorithm implements Algorithm {
      * @return the accuracy digit representing the level of precision.
      */
     public int getAccuracyDigit() {
-        return 0;
+        return this.accuracyDigit;
     }
 
     /**
@@ -143,7 +148,7 @@ public abstract class RoundingAlgorithm implements Algorithm {
      * @return the comparison digit representing the tie-breaker value.
      */
     public int getComparisonDigit() {
-        return 0;
+        return this.comparisonDigit;
     }
 
     /**
@@ -154,7 +159,7 @@ public abstract class RoundingAlgorithm implements Algorithm {
      * @throws IllegalArgumentException if the given number is negative
      */
     public void setAccuracyDigit(int accuracyDigit) {
-        return;
+        this.accuracyDigit = accuracyDigit;
     }
 
     /**
@@ -165,7 +170,7 @@ public abstract class RoundingAlgorithm implements Algorithm {
      * @throws IllegalArgumentException if the given number is out of the scope of 1 to 9.
      */
     public void setComparisonDigit(int comparisonDigit) {
-        return;
+        this.comparisonDigit = comparisonDigit;
     }
 
     /**
